@@ -1,0 +1,102 @@
+        #Button2 {
+            width: 112px;
+        }
+
+        #Button3 {
+            width: 122px;
+        }
+
+        h1 {
+            padding: 0px;
+            margin: 0px;
+        }
+        h3 {
+            padding: 0px;
+            margin: 0px;
+        }
+        h5 {
+            padding: 0px;
+            margin: 0px;
+        }
+        ul#navlist
+            {
+            text-align: left;
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+            width: 70%;
+            }
+
+            ul#navlist li
+            {
+            display: block;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            }
+
+            ul#navlist li a
+            {
+            display: block;
+            width: 100%;
+            padding: 0.5em 0 0.5em 2em;
+            border-width: 1px;
+            border-color: #ffe #aaab9c #ccc #fff;
+            border-style: solid;
+            color: #777;
+            text-decoration: none;
+            background: #f7f2ea;
+            }
+
+
+@media all and (max-width: 480px) and (min-width:200px) {
+    /* rules defined inside here are only applied to browsers that support CSS media queries and the browser window is 480px or smaller */
+
+    .map .div1 {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        display: block;
+    }
+
+    .div2 {
+        position: relative;
+        width: 100px;
+        height: auto;
+        display: inline-block;
+    }
+
+    @media all and (max-width: 767px) and (min-width:481px) {
+        /* rules defined inside here are only applied to browsers that support CSS media queries and the browser window is 480px or smaller */
+
+        .map .div1 {
+            position: relative;
+            width: 500px;
+            height: 400px;
+            display: block;
+        }
+
+        .div2 {
+            position: relative;
+            width: 150px;
+            height: auto;
+            display: inline-block;
+        }
+
+        @media all and (max-width: 1800px) and (min-width:768px) {
+            /* rules defined inside here are only applied to browsers that support CSS media queries and the browser window is 480px or smaller */
+
+            .map .div1 {
+                position: relative;
+                width: 600px;
+                height: 400px;
+                display: block;
+            }
+
+            .div2 {
+                position: relative;
+                width: 200px;
+                height: auto;
+                display: inline-block;
+            }
+        }
