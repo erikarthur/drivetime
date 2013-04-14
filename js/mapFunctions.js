@@ -25,6 +25,9 @@ function initializeObjects()
     else
         $("#routeOpacity").slider("value", 55);
 
+}
+
+function loadSettings() {
     var tbWayPoint1 = document.getElementById("wayPoint1");
     var tbWayPoint2 = document.getElementById("wayPoint2");
     var tbRouteColor = document.getElementById("routeColor");
@@ -46,6 +49,7 @@ function initializeObjects()
     {
         dtObject.wayPoint1 = "2668 Town Lake Dr, Woodbury, MN, 55125";
     }
+
 }
 
 function saveSettings() {
